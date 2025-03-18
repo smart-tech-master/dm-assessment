@@ -12,8 +12,8 @@ const Product = ({ data }) => {
   };
 
   const style = {
-    backgroundImage: `url(./src/assets/images/${isHovered ? data.hoveredImage : data.backgroundImage})`,
-    backgroundSize: isHovered? 'auto 100%' : 'auto 90%'
+    backgroundImage: `url(./assets/images/${isHovered ? data.hoveredImage : data.backgroundImage})`,
+    backgroundSize: isHovered ? 'auto 100%' : 'auto 90%'
   }
 
   return (
