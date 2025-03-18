@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Product from "./components/Product";
 import ColorOption from "./components/ColorOption";
 
-import { data } from './data';
+import { data } from './Data';
 
 function App() {
   const [products, setProducts] = useState([...data]);
