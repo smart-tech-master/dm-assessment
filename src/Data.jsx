@@ -60,8 +60,8 @@ export const data = [
     price: 35.52,
     markdownPrice: 25.52,
     color: '#19264B',
-    backgroundImage: 'blue.png',
-    hoveredImage: 'blue-secondary.png',
+    backgroundImage: 'navy.png',
+    hoveredImage: 'navy-secondary.png',
     onSale: true,
     selected: false,  // Added selected field
   }
